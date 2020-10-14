@@ -41,4 +41,7 @@ module.exports = {
       chunkFilename: '[id].css',
     }),
   ],
+  devServer: {
+    open: true,
+  },
 };
