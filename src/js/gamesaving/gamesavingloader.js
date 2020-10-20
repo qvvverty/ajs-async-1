@@ -5,6 +5,7 @@ export default class GameSavingLoader {
   static load() {
     return read()
       .then(json)
-      .then(JSON.parse);
+      .then(JSON.parse)
+      .catch((error) => error);
   }
 }
